@@ -33,7 +33,7 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    {title: 'jenkins发包执行cmd启 动j1ar', path: '/jenkins/jenkins-1'},
+                    {title: 'jenkins发包执行cmd启  动j1ar', path: '/jenkins/jenkins-1'},
                 ]
             },
             {
