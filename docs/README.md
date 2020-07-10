@@ -4,7 +4,7 @@ heroImage: /img/logo.jpg
 heroText: 精益求精
 tagline: null
 actionText: 开始学习
-actionLink: /springboot/
+actionLink: /java/
 features:
 - title: 列宁
   details: 要成就一件大事业，必须从小事做起。
