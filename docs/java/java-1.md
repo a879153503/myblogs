@@ -74,3 +74,23 @@ Java语言提供了另外一种数据类型BigDecimal，可以表示精确的浮
 在使用BigDecimal的时候，BigDecimal有多个重载的构造方法能表示精度的值，
 只有用参数为String类型的构造方法才能表示。`
 :::
+
+数组定义
+---
+::: tip 提示
+```java
+建议:String[] args
+而不是:string args[]
+```
+:::
+
+方法名的建议
+---
+````java
+获取单个对象的方法用get做前缀
+获取多个对象的方法是用list做前缀
+获取统计值的方法用count做前缀
+插入的方法用save/insert做前缀
+删除的方法用remove/delete做前缀
+修改的方法用update做前缀
+````

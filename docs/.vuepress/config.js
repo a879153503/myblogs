@@ -16,23 +16,6 @@ module.exports = {
                 ]
             }
         ],
-        // sidebar: {
-        //     '/java/': [{
-        //         title: 'java',
-        //         collapsable: false,
-        //         children: [
-        //             {title: 'java中的规范', path: '/java/java-1'},
-        //             {title: 'java代码优化', path: '/java/java-2'}
-        //         ]
-        //     }],
-        //     '/jenkins/': [{
-        //         title: 'jenkins',
-        //         collapsable: false,
-        //         children: [
-        //             {title: 'jenkins发包执行cmd启动jar', path: '/jenkins/jenkins-1'}
-        //         ]
-        //     }]
-        // }
         sidebar:[
             {
                 title: 'Java',
@@ -42,15 +25,23 @@ module.exports = {
                 children: [
                     {title: 'java中的规范', path: '/java/java-1'},
                     {title: 'java代码优化', path: '/java/java-2'},
+                    {title: 'springboot', path: '/java/springboot-1'}
                 ]
             },
             {
                 title: 'jenkins',
-                path: '/jenkins/',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
                     {title: 'jenkins发包执行cmd启动jar，当jenkins job完成jar停止', path: '/jenkins/jenkins-1'},
+                ]
+            },
+            {
+                title: 'vue',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    {title: '用webstorm2020.01&vuecli3搭建vue项目', path: '/vue/vue-1'},
                 ]
             }
         ]
