@@ -33,7 +33,7 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    {title: 'jenkins发包执行cmd启动jar1', path: '/jenkins/jenkins-1'},
+                    {title: 'jenkins发包执行cmd启动jar11', path: '/jenkins/jenkins-1'},
                 ]
             },
             {
