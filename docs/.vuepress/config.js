@@ -25,7 +25,7 @@ module.exports = {
                 children: [
                     {title: 'java中的规范', path: '/java/java-1'},
                     {title: 'java代码优化', path: '/java/java-2'},
-                    {title: 'springboot', path: '/java/springboot-1'}
+                    {title: 'springboot整合freemarker摘要', path: '/java/springboot-1'}
                 ]
             },
             {
