@@ -1,7 +1,7 @@
 module.exports = {
     title: '乔鹏的博客',
     head: [
-        ['link', {rel: 'icon', href: '/'}]
+        ['link', {rel: 'shortcut icon',type:'"image/x-icon"', href: './favicon.ico'}]
     ],
     themeConfig: {
         // logo: '/img/logo.jpg',
