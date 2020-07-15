@@ -26,7 +26,8 @@ module.exports = {
                     {title: 'java中的规范', path: '/java/java-1'},
                     {title: 'java代码优化', path: '/java/java-2'},
                     {title: 'java重要基础知识汇总', path: '/java/java-3'},
-                    {title: 'springboot整合freemarker摘要', path: '/java/springboot-1'}
+                    {title: 'springboot整合freemarker摘要', path: '/java/springboot-1'},
+                    {title: 'springboot中 spring cache的简单应用', path: '/java/springbootCache-1'}
                 ]
             },
             {
